@@ -14,11 +14,22 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.teal,
           body: Column(
-            children: <Widget>[
+            children: const <Widget>[
               CircleAvatar(
                 radius: 50,
                 backgroundImage: AssetImage('images/potato.png'),
               ),
+              Text(
+                'Prem Gupta',
+                style: TextStyle(
+                    fontSize: 40,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Cookie'),
+              ),
+              Text('SOFTWARE ENGINEER',
+                  style: TextStyle(
+                      fontSize: 20, color: Colors.white, fontFamily: 'DMSans'))
             ],
           ),
         ),
