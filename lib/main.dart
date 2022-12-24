@@ -57,6 +57,7 @@ class MyApp extends StatelessWidget {
                         fontFamily: 'DMSans',
                         fontSize: 20),
                   ),
+                  horizontalTitleGap: 1,
                 ),
               ),
               Card(
