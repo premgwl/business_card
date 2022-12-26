@@ -1,6 +1,6 @@
 ## Flutter Business Card App
 
-A basic Flutter Business Card app to share the developer information. 
+A basic Flutter Business Card app to showcase the developer business card. 
 
 ## Demo Screen
 
